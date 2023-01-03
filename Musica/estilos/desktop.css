@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+
+section{
+    width: 700px;
+    height: 626px;
+}
+
+div#imagem{
+    height: 220px;
+}
+
+div#texto > h2{
+    font-size: 27px;
+}
+
+div#texto > p {
+    font-size: 20px;
+}
+
+div#preço > h4{
+    font-size: 20px;
+}
+
+div#preço > p {
+    font-size: 20px;
+}
+
+a#botao-a{
+    font-size: 20px;
+}
+
+a#botao-b{
+    font-size: 20px;
+}

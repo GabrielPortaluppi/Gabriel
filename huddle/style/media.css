@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    div#imagem{
+        float: left;
+    }
+
+    section > div#texto{
+      float: right;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    div#imagem{
+        float: left;
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    section > div#texto{
+        float: right;
+        width: 45%;
+        margin-top: 20px;
+
+    }
+
+    section > div#texto > h2{
+      font-size: 4em;
+    }
+
+    section > div#texto > p{
+        font-size: 2.4em;
+    }
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(104, 27, 177) url(../images/bg-mobile.svg) no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+header{
+    background-image: url(../images/logo.png) ;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 52px;
+    margin: 30px;
+}
+
+main{
+   height: 100vh;
+   margin: auto;
+}
+
+section > div#imagem{
+    display: block;
+    text-align: center;
+}
+
+section > div#texto{
+    text-align: center;
+}
+
+section > div#texto > h2{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section > div#texto > p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+button{
+    display: block;
+    color: rgb(106, 35, 172);
+    width: 300px;
+    border-radius: 30px;
+    height: 60px;
+    background-color: white;;
+    margin: auto;
+    border: 3px solid rgb(136, 15, 248);
+}
+
+button:hover{
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
+}

@@ -1,0 +1,127 @@
+@charset "UTF-8";  
+
+:root{
+    --botao:#3B2BE4;
+    --titulo:#3D405A;
+    --fundo:#F8F9FD;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{ 
+    width: 100vw;
+    height: 100vh;
+    background: black url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 350px;
+    height: 540px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div#tudo{
+    padding: 10px;
+}
+
+div#imagem{
+    height: 150px;
+    background: url(../images/boneco.svg) no-repeat;
+    background-size: cover;
+}
+
+section > div#texto{
+    text-align: center;
+    margin: 10px;
+}
+
+div#texto > h2{
+    color: var(--titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;    
+}
+
+div#texto > p{
+    text-align: justify;
+    text-align: center;
+}
+
+div#preço{
+   padding: 10px;
+    background-color: var(--fundo);
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+
+div#preço > img{
+    display: block;
+ 
+}
+
+div#preço > h4{
+    color: var(--titulo);
+    text-align: center;
+}
+
+div#preço > p{
+   text-align: center;
+   color: rgb(175, 174, 174);
+}
+
+div#preço > a {
+    display: block;
+    font-weight: bolder;
+    text-align: right;
+}
+
+a#botao-a{
+    display: block;
+    text-align: center;
+    background-color: var(--botao);
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #3a2be467;
+    
+}
+
+a#botao-a:hover{
+   transition-duration: .3s;
+   transform: translate(-3px, -3px);
+   box-shadow: 3px 3px 10px #3a2be46c;
+}
+
+a#botao-b{
+    display: block;
+    color: rgb(168, 167, 167);
+    margin-top: -10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a#botao-b:hover{
+    color: #3D405A;
+}
