@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*Breakpoints
+celulares: 600px
+tablets: 600px ate 768px
+desktops: 768px ate 1200px*/
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    header > a{
+        width: 130px;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    header > a:hover{
+        transform: translate(-4px, -4px);
+        transition: .5s;
+        border: 3px solid #00262E;
+    }
+
+    section#texto > div#parte-principal > h2{
+        font-size: 35px;
+    }
+
+    section#texto > div#parte-principal > button#botao{
+        font-size: 17px;
+        width: 340px;
+    }
+
+    section#texto > div#parte-principal > button#botao:hover{
+        border: 3px solid  #c63a93;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header > img{
+        width: 20%;
+    }
+
+    header > a{
+        width: 200px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    main{
+        height: 900px;
+    }
+
+    section#texto > div#parte-principal > h2 {
+      
+        font-size: 37px;
+    }
+
+    section#texto > div#parte-principal > p {
+        width: 700px;
+        font-size: 28px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    section#parte-secundaria{
+        width: 800px;
+        height: 300px;
+    }
+
+    section#parte-secundaria > div#primera-imagem > img{
+        float: right;
+    }
+
+    section#parte-secundaria > div#primera-imagem > h3{
+        padding-top: 40px;
+        font-size: 28px;
+    }
+
+    section#parte-secundaria > div#primera-imagem > p{
+        font-size: 25px;
+    }
+
+    section#parte-terciario{
+        width: 800px;
+        height: 300px;
+    }
+
+    section#parte-terciario > div#segunda-imagem > img{
+        float: right;
+    }
+
+    section#parte-terciario > div#segunda-imagem > h3{
+        padding-top: 40px;
+        font-size: 28px;
+    }
+
+    section#parte-terciario > div#segunda-imagem > p{
+        font-size: 25px;
+    }
+
+    section#parte-quartenaria{
+        width: 800px;
+        height: 300px;
+    }
+
+    section#parte-quartenaria > div#terceira-imagem > img{
+        float: right;
+    }
+
+    section#parte-quartenaria > div#terceira-imagem > h3{
+        padding-top: 40px;
+        font-size: 28px;
+    }
+
+    section#parte-quartenaria > div#terceira-imagem > p{
+        font-size: 25px;
+    }
+}

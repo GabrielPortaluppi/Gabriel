@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huddle</title>
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
 
 </head>
 <body>
@@ -17,10 +18,13 @@
         </header>
             <section id="texto">
                <div id="parte-principal">
-                   <h2>Build The Community <br> Your Fans Will Love</h2>
+                   <h2>Build The Community <br> Your Fans Will Love</h2> 
                    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
                    <button id="botao">Get Started For Free</button> <br>
-                   <img src="images/illustration-mockups.png" alt="tablet">
+                   <picture>
+                    <source media="(max-width:768px)" srcset="images/illustration-mockups.png" type="image/png">
+                        <img src="images/illustration-mockups-g.png" alt="tablet">
+                    </picture>
                </div>
             </section>
     </main> 

@@ -40,8 +40,14 @@ header > a{
     color: #00262E;
 }
 
+header > a:hover{
+    transform: translate(-4px, -4px);
+    border: 2px solid #00262E;
+    transition: 0.5s;
+}
+
 header > img{
-    width: 36%;
+    width: 20%;
 }
 
 section#texto{
