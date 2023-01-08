@@ -1,0 +1,219 @@
+@charset "UTF-8";   
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: #EDFBFE;
+    height: 760px;
+    margin-bottom: 50px;
+}
+
+header{
+    padding: 20px; 
+}
+
+header > a{
+    display: block;
+    text-align: center;
+    float: right;
+    width: 120px;
+    padding: 7px;
+    background-color: white; 
+    border-radius: 20px;  
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00262E;
+}
+
+header > img{
+    width: 36%;
+}
+
+section#texto{
+    text-align: center;
+    padding: 20px;
+}
+
+section#texto > div#parte-principal > h2{
+    font-size: 30px;
+    color: #00262E;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+section#texto > div#parte-principal > p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #00262E;
+}
+
+section#texto > div#parte-principal > button#botao{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #FE52C0;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+section#texto > div#parte-principal > button#botao:hover{
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
+    border: 2px solid #c63a93;
+}
+
+section#parte-secundaria {
+    margin: auto;
+    width: 400px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+    text-align: center;
+    height: 550px;
+    margin-bottom: 50px;
+    
+}
+
+section#parte-secundaria > div#primera-imagem > img {
+    margin: 50px 0px;
+}
+
+section#parte-secundaria > div#primera-imagem > h3{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #00262E;
+}
+
+section#parte-secundaria > div#primera-imagem > p{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.687);
+}
+
+section#parte-terciario{
+    margin: auto;
+    width: 400px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+    text-align: center;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+section#parte-terciario > div#segunda-imagem > img{
+    margin: 50px 0px;
+}
+
+section#parte-terciario > div#segunda-imagem > h3{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #00262E;
+}
+
+section#parte-terciario > div#segunda-imagem > p {
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.687);
+}
+
+section#parte-quartenaria{
+    margin: auto;
+    width: 400px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+    text-align: center;
+    height: 510px;
+    margin-bottom: 100px;
+}
+
+section#parte-quartenaria > div#terceira-imagem > img{
+    margin: 50px 0px;
+}
+
+section#parte-quartenaria > div#terceira-imagem > h3{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #00262E;
+}
+
+section#parte-quartenaria > div#terceira-imagem > p {
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.687);
+}
+
+section#parte-botao{
+    width: 450px;
+    margin: auto;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.144);
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+section#parte-botao > div#link > h2{
+   text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #00262E;
+}
+
+section#parte-botao > div#link > button{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 17px;
+    border-radius: 30px;
+    background-color: #FE52C0;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+section#parte-botao > div#link > button:hover{
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
+    border: 2px solid #c63a93;
+}
+
+section#contatos{
+    background-color: #00262E;
+    height: 300px;
+}
+
+div#ultima > p > img#logo{
+   margin: 20px;
+}
+
+div#ultima > p > img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div#ultima > p{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+}
