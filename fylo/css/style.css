@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#434055;
+    --cor2:#2F65F9;
+    --cor3:#69687D;
+    --cor4:#5A988F;
+    --cor5: #090639;
+    --cor6:#514E71;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    margin: 30px
+}
+
+header > nav#link{
+   display: block;
+   float: right;
+   font-size: 18px;
+}
+
+header > nav#link > a{
+    color: var(--cor1);
+    text-decoration:none ;
+    padding-left: 20px;
+}
+
+main > section#primeira-parte{
+    margin: auto;
+    width: 700px;
+}
+
+main > section#primeira-parte >img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+main > section#primeira-parte > h1{
+    text-align: center;
+    font-size: 35px;
+    color: var(--cor5);
+    margin-bottom: 20px;
+}
+
+main > section#primeira-parte > p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--cor6);
+    margin-bottom:35px ;
+}
+
+main > section#primeira-parte > input{
+    display: block;
+    width: 450px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 2px solid var(--cor6);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+main > section#primeira-parte > button{
+    display: block;
+    margin: auto;
+    margin-bottom:80px; 
+    width: 430px;
+    height: 60px;
+    background-color: var(--cor2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+main > section#primeira-parte > button:hover{
+    transform: translate(-3px, -3px);
+    transition: .5s;
+    border: 3px solid var(--cor5);
+}
+
+section#fundo{
+    background-image: url(../images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+    height: 1150px;
+}
+
+section#fundo > div > img#segunda{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+section#fundo > div > h2{
+    padding-top: 30px;
+    text-align: center;
+    color: var(--cor6);
+    margin-bottom: 30px;
+
+}
+
+section#fundo > div > p {
+    color: var(--cor3);
+    font-size: 19px;
+    text-align: center;
+}
+
+section#fundo > div > p#primeiro{
+    margin-bottom: 30px;
+}
+
+section#fundo > div > a#seta{
+    display: block;
+    text-align: center;
+    color: var(--cor4);
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+section#fundo > div#pessoa{
+    width: 490px;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+section#fundo > div#pessoa > img#aspas{
+    display: block;
+    padding: 20px;
+}
+
+section#fundo > div#pessoa > p#p-pessoa{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+section#fundo > div#pessoa > img#avatar{
+    display: block;
+    border-radius: 50%;
+    width: 10%;
+    height: 13%;
+    margin-left: 40px;
+}
+
+section#fundo > div#pessoa > h3{   
+    transform: translateX(100px);
+    font-size: 16px;
+    color: var(--cor6);
+    margin-top: -35px;
+}
+
+section#fundo > div#pessoa > p#p-avatar{
+    text-align: left;
+    transform: translateX(100px);
+    font-size: 12px;
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+section#terceira-parte{
+    background-color: #22126ab6;
+    width: 765px;
+    height: 500px;
+}
+
+section#terceira-parte > div > h2{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 27px;
+}
+
+section#terceira-parte > div > p{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+section#terceira-parte > div > input{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+section#terceira-parte > div > button{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background-color: #2F65F9;
+    color: white;
+}
+
+section#terceira-parte > div > button:hover{
+    border: 2px solid #090639;
+    transform: translate(-3px, -3px);
+    transition: .5s;
+}
+
+footer{
+    background-color: #090639;
+    height: 400px;
+    width: 765;
+}
+
+footer > img#logo{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 40%;
+}
+
+footer > p > img{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 5%;
+}
+
+footer > p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
