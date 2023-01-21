@@ -42,7 +42,8 @@ header > nav#link > a{
 
 main > section#primeira-parte{
     margin: auto;
-    width: 700px;
+    height: 100vh;
+    width: 600px;
 }
 
 main > section#primeira-parte >img {
@@ -98,6 +99,8 @@ main > section#primeira-parte > button:hover{
 }
 
 section#fundo{
+    margin: auto;
+    width: 768px;
     background-image: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
