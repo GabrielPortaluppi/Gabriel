@@ -43,7 +43,8 @@ header > nav#link > a{
 main > section#primeira-parte{
     margin: auto;
     height: 100vh;
-    width: 600px;
+    max-width:768px;
+    min-width: 200px;
 }
 
 main > section#primeira-parte >img {
@@ -100,7 +101,8 @@ main > section#primeira-parte > button:hover{
 
 section#fundo{
     margin: auto;
-    width: 768px;
+    max-width: 768px;
+    min-width: 200px;
     background-image: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +189,8 @@ section#fundo > div#pessoa > p#p-avatar{
 
 section#terceira-parte{
     background-color: #22126ab6;
-    width: 765px;
+    max-width: 765px;
+    min-width: 200px;
     height: 500px;
 }
 
@@ -239,7 +242,8 @@ section#terceira-parte > div > button:hover{
 footer{
     background-color: #090639;
     height: 400px;
-    width: 765;
+    max-width: 765px;
+    min-width: 200px;
 }
 
 footer > img#logo{

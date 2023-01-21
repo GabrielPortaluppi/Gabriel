@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px)  and (max-width: 992px)  and (max-width: 1800px){
+
+    main > section#primeira-parte{
+        max-width: 992px;
+    }
+
+    section#fundo{
+        max-width: 992px;
+    }
+
     section#terceira-parte{
-        width: 990px;
+        max-width: 990px;
     }
 
     section#terceira-parte > div > h2{
@@ -12,12 +21,23 @@
     section#terceira-parte > div > p{
         font-size: 25px;
     }
+
+    footer{
+        max-width: 992px;
+    }
 }
 
 @media screen and (min-width: 992px)  {
+    main > section#primeira-parte{
+        max-width: 1800px;
+    }
 
     section#terceira-parte{
-        width: 1800px;
+        max-width: 1800px;
+    }
+
+    section#fundo{
+        max-width: 1800px;
     }
 
     section#terceira-parte > div > h2{
@@ -31,6 +51,6 @@
     footer{
         background-color: #090639;
         height: 600px;
-        width: 765;
+        max-width: 1800px;
     }
 }
