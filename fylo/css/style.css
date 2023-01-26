@@ -46,8 +46,6 @@ header > nav#link > a{
 
 main > section#primeira-parte{
     margin: auto;
-    max-width:768px;
-    min-width: 200px;
 }
 
 main > section#primeira-parte >img {
@@ -72,7 +70,7 @@ main > section#primeira-parte > p {
 
 main > section#primeira-parte > input{
     display: block;
-    width: 300px;
+    width: 250px;
     padding: 10px;
     margin: auto;
     margin-bottom: 20px;
@@ -86,7 +84,7 @@ main > section#primeira-parte > button{
     display: block;
     margin: auto;
     margin-bottom: 60px;
-    width: 300px;
+    width: 250px;
     height: 60px;
     background-color: var(--cor2);
     color: white;
