@@ -65,7 +65,7 @@ main > section#primeira-parte > h1{
 }
 
 main > section#primeira-parte > p {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     color: var(--cor6);
     margin-bottom:35px ;
@@ -111,7 +111,7 @@ section#fundo{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top ;
-    height: 1180px;
+    height: 1000px;
 }
 
 section#fundo > div > img#segunda{
@@ -130,7 +130,7 @@ section#fundo > div > h2{
 
 section#fundo > div > p {
     color: var(--cor3);
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -147,7 +147,7 @@ section#fundo > div > a#seta{
 }
 
 section#fundo > div#pessoa{
-    width: 430px;
+    width: 380px;
     height: 250px;
     background-color: white;
     margin: auto;
@@ -161,7 +161,7 @@ section#fundo > div#pessoa > img#aspas{
 }
 
 section#fundo > div#pessoa > p#p-pessoa{
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
     text-align: left;
     margin-left: 40px;
@@ -209,7 +209,7 @@ section#terceira-parte > div > h2{
 section#terceira-parte > div > p{
     text-align: center;
     color: white;
-    font-size: 23px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
