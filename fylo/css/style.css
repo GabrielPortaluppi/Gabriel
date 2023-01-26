@@ -24,6 +24,8 @@ body{
     height: 100vh;
 }
 
+/*Cabeçalho*/
+
 header{
     margin: 30px
 }
@@ -40,6 +42,8 @@ header > nav#link > a{
     padding-left: 20px;
 }
 
+/*PRIMEIRA IMAGEM DO SITE*/
+
 main > section#primeira-parte{
     margin: auto;
     height: 100vh;
@@ -55,7 +59,7 @@ main > section#primeira-parte >img {
 
 main > section#primeira-parte > h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     color: var(--cor5);
     margin-bottom: 20px;
 }
@@ -99,15 +103,15 @@ main > section#primeira-parte > button:hover{
     border: 3px solid var(--cor5);
 }
 
+/*SEGUNDA PARTE DO SITE (FUNDO ROXO)*/
+
 section#fundo{
     margin: auto;
-    max-width: 768px;
-    min-width: 200px;
     background-image: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top ;
-    height: 1150px;
+    height: 1180px;
 }
 
 section#fundo > div > img#segunda{
@@ -126,7 +130,7 @@ section#fundo > div > h2{
 
 section#fundo > div > p {
     color: var(--cor3);
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -143,11 +147,11 @@ section#fundo > div > a#seta{
 }
 
 section#fundo > div#pessoa{
-    width: 490px;
+    width: 430px;
     height: 250px;
     background-color: white;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 
@@ -157,7 +161,7 @@ section#fundo > div#pessoa > img#aspas{
 }
 
 section#fundo > div#pessoa > p#p-pessoa{
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     text-align: left;
     margin-left: 40px;
@@ -182,15 +186,15 @@ section#fundo > div#pessoa > h3{
 section#fundo > div#pessoa > p#p-avatar{
     text-align: left;
     transform: translateX(100px);
-    font-size: 12px;
+    font-size: 10px;
     color: var(--cor3);
     font-weight: bold;
 }
 
+/*TERCEIRA PARTE DO SITE (LOGIN)*/
+
 section#terceira-parte{
     background-color: #22126ab6;
-    max-width: 765px;
-    min-width: 200px;
     height: 500px;
 }
 
@@ -213,7 +217,7 @@ section#terceira-parte > div > input{
     display: block;
     margin: auto;
     margin-bottom: 10px;
-    width: 400px;
+    width: 350px;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -224,7 +228,7 @@ section#terceira-parte > div > input{
 section#terceira-parte > div > button{
     display: block;
     margin: auto;
-    width: 400px;
+    width: 350px;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -239,16 +243,16 @@ section#terceira-parte > div > button:hover{
     transition: .5s;
 }
 
+/*RODAPE DO SITE*/
+
 footer{
     background-color: #090639;
-    height: 400px;
-    max-width: 765px;
-    min-width: 200px;
+    height: 350px;
 }
 
 footer > img#logo{
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
     width: 40%;
 }
 
