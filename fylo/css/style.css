@@ -59,7 +59,7 @@ main > section#primeira-parte >img {
 
 main > section#primeira-parte > h1{
     text-align: center;
-    font-size: 33px;
+    font-size: 29px;
     color: var(--cor5);
     margin-bottom: 20px;
 }
@@ -110,7 +110,7 @@ section#fundo{
     background-image: url(../images/bg-curve-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top ;
+    background-position: top center ;
     height: 1000px;
 }
 
@@ -148,7 +148,7 @@ section#fundo > div > a#seta{
 
 section#fundo > div#pessoa{
     width: 380px;
-    height: 250px;
+    height: 200px;
     background-color: white;
     margin: auto;
     margin-top: 40px;
