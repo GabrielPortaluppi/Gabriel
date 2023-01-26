@@ -46,7 +46,6 @@ header > nav#link > a{
 
 main > section#primeira-parte{
     margin: auto;
-    height: 100vh;
     max-width:768px;
     min-width: 200px;
 }
@@ -59,7 +58,7 @@ main > section#primeira-parte >img {
 
 main > section#primeira-parte > h1{
     text-align: center;
-    font-size: 29px;
+    font-size: 25px;
     color: var(--cor5);
     margin-bottom: 20px;
 }
@@ -86,7 +85,7 @@ main > section#primeira-parte > input{
 main > section#primeira-parte > button{
     display: block;
     margin: auto;
-    margin-bottom:80px; 
+    margin-bottom: 60px;
     width: 430px;
     height: 60px;
     background-color: var(--cor2);
@@ -111,7 +110,7 @@ section#fundo{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center ;
-    height: 1000px;
+    height: 900px;
 }
 
 section#fundo > div > img#segunda{
@@ -147,7 +146,7 @@ section#fundo > div > a#seta{
 }
 
 section#fundo > div#pessoa{
-    width: 380px;
+    width: 320px;
     height: 200px;
     background-color: white;
     margin: auto;
