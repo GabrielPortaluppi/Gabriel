@@ -70,7 +70,7 @@ main > section#primeira-parte > p {
 
 main > section#primeira-parte > input{
     display: block;
-    width: 250px;
+    width: 300px;
     padding: 10px;
     margin: auto;
     margin-bottom: 20px;
@@ -84,7 +84,7 @@ main > section#primeira-parte > button{
     display: block;
     margin: auto;
     margin-bottom: 60px;
-    width: 250px;
+    width: 300px;
     height: 60px;
     background-color: var(--cor2);
     color: white;
