@@ -28,6 +28,7 @@ header > h1{
     padding-top: 20px;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.399);
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 /*--------CORPO--------*/
@@ -72,6 +73,7 @@ div#imagem > picture > img{
     display: block;
     margin: auto;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 /*--------CALCULO--------*/
