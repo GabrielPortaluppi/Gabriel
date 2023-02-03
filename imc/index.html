@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>IMC: O que é, Como Calcular</h1>
+    </header>
+    <main>
+        <!--Parte do Texto-->
+        <p>O Índice de Massa Corporal (IMC) é um parâmetro bastante utilizado para classificar o indivíduo de acordo com seu peso e altura. Seu uso é disseminado principalmente entre profissionais que trabalham com o corpo, como médicos, fisioterapeutas e profissionais de Educação Física. É importante ressaltar que a Organização Mundial da Saúde (OMS) utiliza esse índice como indicador do nível de obesidade nos diferentes países.</p>
+        <p>O cálculo desse índice é bastante simples e, para utilizá-lo, basta saber o seu peso e a sua altura e inseri-los na fórmula. A fórmula dada é a seguinte:</p>
+        <p>peso (Kg) / (altura x altura) (M)</p>
+        
+        <!--Parte da Tabela-->
+        <table id="tabela">
+            <tr>
+                <th>Magreza</th>
+                <td>Abaixo de 18.5</td>
+            </tr>
+            <tr>
+                <th>Peso Normal</th>
+                <td>Entre 18.6 e 24.9</td>
+            </tr>
+            <tr>
+                <th>Sobrepeso</th>
+                <td>Entre 25 e 29.9</td>
+            </tr>
+            <tr>
+                <th>Obesidade de grau I</th>
+                <td>Entre 30 e 34.9</td>
+            </tr>
+            <tr>
+                <th>Obesidade de grau II</th>
+                <td>Entre 35 e 39.9</td>
+            </tr>
+            <tr>
+                <th>Obesidade de grau III</th>
+                <td>Acima de 40</td>
+            </tr>
+        </table>
+
+        <!--Parte da Foto-->
+        <div id="imagem">
+            <picture>
+                <source media="(max-width:645px )" srcset="imagens/pessoascaminhando-p.jpg" type="image/jpg">
+                <img src="imagens/pessoascaminhando-g.jpg" alt="foto">
+            </picture>
+        </div>
+
+        <!--Parte do Calculo do IMC-->
+        <div class="calculo">
+            <h2>Calcule seu IMC</h2>
+            <label for="ipeso">Peso:</label>
+           <input type="number" name="peso" id="ipeso">        
+        </div>
+
+        <div class="calculo">
+            <label for="ialtura">Altura:</label>
+            <input type="number" name="altura" id="ialtura">
+        </div>
+
+        <div class="calculo">
+            <button id="botao">Calcular</button>
+        </div>
+        <p id="res"></p>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-position: center right;
+}
+
+
+/*--------CABEÇALHO--------*/
+header {
+    background-color: rgba(255, 255, 255, 0.778);
+    height: 90px;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.399);
+    font-size: 35px;
+}
+
+/*--------CORPO--------*/
+main{
+    background-color: rgba(255, 255, 255, 0.778);
+    max-width: 710px;
+    min-width: 300px;
+    margin: auto;
+}
+
+main > p{
+    text-align: center;
+    font-size: 23px;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+
+/*--------TABELA--------*/
+table#tabela{
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th{
+    font-size: 20px;
+} 
+
+td{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*--------IMAGEM--------*/
+div#imagem > picture > img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*--------CALCULO--------*/
+div.calculo {
+    margin: auto;
+    text-align: center;
+    background-color:#ffe68276 ;
+    height: 90px;
+    max-width: 695px;
+    min-width: 280px;
+}
+
+div.calculo > h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.calculo > input{
+    font-size: 18px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+div.calculo > button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+div.calculo > button:hover{
+    transform: translate(-4px, -4px);
+    transition: .5s;
+    border: 2px solid #967600;
+}
+
+p#res{
+    font-size: 27px;
+    text-align: center;
+    font-weight: bolder;
+}
