@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <!--IMAGEM-->
+            <div id="imagem"></div>
+
+            <!--LOGIN-->
+            <div id="login">
+                <h1>Bem-Vindo</h1>
+                <p>Insira seu E-mail e sua Senha!</p>
+                <form action="#">
+                    <div id="email">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" required placeholder="Digite seu E-mail">
+                    </div>
+                    <div id="senha">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" placeholder="Digite sua Senha">
+                    </div>
+                    <p id="res"></p>
+                    <button id="botao">Verificar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

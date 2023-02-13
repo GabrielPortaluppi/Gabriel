@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(../imagem/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*----------CORPO----------*/
+
+main{
+   position: relative;
+    height: 100vh;
+}
+
+section{
+    background-color: rgb(1, 168, 168);
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/*----------IMAGEM ASTRONAUTA----------*/
+main > section > div#imagem{
+    background-image: url(../imagem/astronauta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-color: black;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+/*----------PARTE DO LOGIN----------*/
+section > div#login > h1{
+    text-align: center;
+    margin: 20px;
+    margin-top: 20%;
+    font-size: 32px;
+    color: rgb(3, 3, 60);
+}
+
+section > div#login > p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3, 3, 60);
+}
+
+section > div#login > form > div#email > label{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(3, 3, 60);
+}
+
+section > div#login > form > div#email > input{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 15px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+}
+
+section > div#login > form > div#senha > label{
+    font-size: 20px;
+    margin-left: 10px;
+    color:rgb(3, 3, 60) ;
+}
+
+section > div#login > form > div#senha > input{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 15px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+}
+
+section > div#login > form > p#res {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(3, 3, 60);
+}
+
+section > div#login > form > button{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 171, 156);
+    font-size: 15px;
+    border: none;
+    color: rgb(3, 3, 60);
+}
+
+section > div#login > form > button:hover{
+    transform: translate(-4px, -4px);
+    border: 2px solid rgb(35, 2, 112);
+    transition: .6s;
+}
